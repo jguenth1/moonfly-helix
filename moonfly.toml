@@ -1,0 +1,189 @@
+#default bg/text
+"ui.background" = "bg"
+"ui.background.separator" = "grey236"
+"ui.text" = "white"
+"ui.text.inactive" = "grey233"
+"ui.cursorline.primary" = {bg = "grey234"}
+
+# Cursor
+"ui.cursor.primary.normal" = {fg = "bg", bg = "blue", modifiers = ["dim"]}
+"ui.cursor.primary.insert" = {fg = "bg", bg = "emerald", modifiers = ["dim"]}
+"ui.cursor.primary.select" = {fg = "bg", bg = "violet", modifiers = ["dim"]}
+"ui.cursor.normal"         = {fg = "bg", bg = "blue", modifiers = ["dim"]}
+"ui.cursor.insert"         = {fg = "bg", bg = "emerald", modifiers = ["dim"]}
+"ui.cursor.select"         = {fg = "bg", bg = "violet", modifiers = ["dim"]}
+"ui.cursor.match"          = {fg = "bg", bg = "grey246", modifiers = ["dim"]}
+
+# Statusline
+"ui.statusline"          = {fg = "white", bg = "grey234"}
+"ui.statusline.inactive" = {fg = "grey239", bg = "grey234"}
+"ui.statusline.normal"   = {fg = "bg",    bg = "blue"}
+"ui.statusline.insert"   = {fg = "bg",    bg = "emerald"}
+"ui.statusline.select"   = {fg = "bg",    bg = "violet"}
+
+# Selection
+"ui.selection.primary" = {bg = "grey241"}
+"ui.selection" = {bg = "grey236"}
+
+# Gutter & Line Number
+"ui.linenr"          = {fg = "grey241", bg = "bg"}
+"ui.linenr.selected" = {fg = "blue", bg = "grey234", modifiers = ["bold"]}
+"ui.gutter"          = {fg = "grey241", bg = "bg"}
+"ui.gutter.selected" = {fg = "blue", bg = "grey234", modifiers = ["bold"]}
+# Popups, hints et al.
+"ui.text.focus" = { fg = "blue"}
+"ui.ruler" = {fg = "white", bg = "white"}
+
+"ui.menu" = { fg = "white", bg = "grey234"} 
+"ui.menu.scroll" = { fg = "white", bg = "grey234"}
+"ui.menu.selected" = {fg = "white", bg = "grey236"}
+"ui.popup" = {fg = "white", bg = "grey234"}
+"ui.highlight.frameline" = {fg = "white"}
+
+# Inlay hints / indent guides
+"ui.virtual.inlay-hint" = {fg = "blue"}
+"ui.virtual.inlay-hint.type" = {fg = "emerald"}
+"ui.virtual.inlay-hint.parameter" = {fg = "orchid"}
+"ui.virtual.indent-guide" = {fg = "grey236"}
+
+# Diagnostics
+# debug indicators in gutter
+"hint" = {fg = "green"}
+"info" = {fg = "blue"}
+"warning" = {fg = "yellow"}
+"error" = {fg = "cranberry"}
+
+# debug in text area
+"diagnostic"          = {underline = {color = "white", style = "double_line"}}
+"diagnostic.hint"     = {underline = {color = "green", style = "curl"}}
+"diagnostic.info"     = {underline = {color = "blue", style = "curl"}}
+"diagnostic.warning"  = {underline = {color = "yellow", style = "curl"}}
+"diagnostic.error"    = {underline = {color = "cranberry", style = "curl"}}
+
+# diff indicators
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+
+# AST Element Styling
+"attribute" = "sky"
+"type" = "emerald"
+"type.builtin" = "emerald"
+"type.enum.variant" = "turquoise"
+"constructor" = "emerald"
+"constant" = "orange"
+"constant.builtin" = "green"
+"constant.builtin.boolean" = "cranberry"
+"constant.character" = "purple"
+"constant.character.escape" = "cranberry"
+"constant.numeric.integer" = "orange"
+"constant.integer.float" = "orange"
+"string" = "khaki"
+"string.regexp" = "turquoise"
+# "string.special.path"
+# "string.special.url"
+# "string.special.symbol"
+"comment" = {fg = "grey246", modifiers = ["italic"]}
+# "comment.line"
+# "comment.block"
+# "comment.block.documentation"
+"variable" = "white"
+"variable.builtin" = "lime"
+"variable.parameter" = "orchid"
+# "variable.other"
+"variable.other.member" = "turquoise"
+"label" = "turquoise"
+"punctuation.delimiter" = "white"
+# "punctuation.bracket"
+# "punctuation.special"
+"keyword" = "violet"
+# "keyword.control"
+"keyword.control.conditional" = "violet"
+"keyword.control.repeat" = "violet"
+# "keyword.control.import"
+# "keyword.control.return"
+"keyword.control.exception" = "crimson"
+# "keyword.operator"
+"keyword.directive" = "crimson"
+# "keyword.function" 
+# "keyword.storage" = "coral"
+# "keyword.storage.type"
+"operator" = "cranberry"
+"function" = "sky"
+# "function.builtin"
+# "function.method"
+# "function.macro"
+# "function.special"
+"tag" = "blue"
+"tag.builtin" = "lime"
+"namespace" = "turquoise"
+"special" = "cranberry"
+
+# ### Markup
+"markup.heading.marker" = "crimson"
+"markup.heading.1" = "emerald"
+"markup.heading.2" = "blue"
+# "markup.heading.3" = "turquoise"
+# "markup.heading.4" = ""
+# "markup.heading.5"
+# "markup.heading.6"
+# "markup.list.unnumbered"
+# "markup.list.numbered"
+# "markup.list.checked"
+# "markup.list.unchecked"
+# "markup.bold"
+# "markup.italic"
+# "markup.strikethrough"
+# "markup.link.url"
+# "markup.link.label"
+# "markup.link.text"
+# "markup.quote"
+"markup.raw.inline" = {fg = "white"}
+
+
+
+# Color Palette Aliases
+[palette]
+# basic colors
+bg = "#080808"
+black = "#080808"
+white = "#c6c6c6"
+
+# charcoal grey variations
+grey0   = "#323437"
+grey1   = "#373c4d"
+grey254 = "#e4e4e4"
+grey249 = "#b2b2b2"
+grey247 = "#9e9e9e"
+grey246 = "#949494"
+grey244 = "#808080"
+grey241 = "#626262"
+grey239 = "#4e4e4e"
+grey238 = "#444444"
+grey237 = "#3a3a3a"
+grey236 = "#303030"
+grey235 = "#262626"
+grey234 = "#1c1c1c"
+grey233 = "#121212"
+    
+# Core theme colors
+khaki     = "#c2c292"
+yellow    = "#e3c78a"
+orange    = "#de935f"
+coral     = "#f09479"
+orchid    = "#e196a2"
+lime      = "#85dc85"
+green     = "#8cc85f"
+emerald   = "#36c692"
+blue      = "#80a0ff"
+sky       = "#74b2ff"
+turquoise = "#79dac8"
+purple    = "#ae81ff"
+cranberry = "#e65e72"
+violet    = "#cf87e8"
+crimson   = "#ff5189"
+red       = "#ff5454"
+# Extra colors
+spring    = "#00875f"
+mineral   = "#314940"
+bay       = "#4d5d8d"
